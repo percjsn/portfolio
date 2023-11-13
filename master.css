@@ -67,9 +67,43 @@
 
 .contactDiv {
   text-align: center;
-  padding-top: 4rem;
+  padding: 4rem 0;
   background-color: aliceblue;
+}
+.contactDiv h2 {
+  padding: 1rem 0;
+}
+.contactDiv p {
+  padding-bottom: 3rem;
+}
+.contactDiv h5 {
+  text-align: start;
 }
 .formDiv {
   text-align: start;
+}
+
+.nameEmailDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.nameEmailDiv input {
+  width: 100%;
+}
+.nameDiv {
+  width: 100%;
+}
+.emailDiv {
+  width: 100%;
+}
+
+div textarea {
+  width: 100%;
+}
+
+#submitButton {
+  width: 100%;
+  padding: 1rem;
 }
